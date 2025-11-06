@@ -257,6 +257,6 @@ deliverables/
 
 | **Criterion** | **Excellent (Full Points)** | **Partial Credit** | **Points** |
 |----------------|-----------------------------|--------------------|------------|
-| **SBOM Generation** | Both SBOMs generated (Syft SPDX + Trivy CycloneDX); includes discussion of differences and screenshots. | One SBOM missing, misnamed, or lacking discussion. | 8 |
-| **Vulnerability Analysis** | Grype scan performed; top 5 CVEs or rationale for 0 findings; NVD context explained. | Scan missing or minimal discussion. | 7 |
-| **Reflection & Professionalism** | Clear, concise reflection; correct filenames; properly pushed to GitHub. | Minor clarity or submission issues. | 5 |
+| **SBOM Generation** | Both SBOMs (Syft SPDX + Trivy CycloneDX) generated correctly for repo; component count and format differences are discussed; screenshots included. | One SBOM missing, misnamed, or lacking discussion. | 8 |
+| **Vulnerability Analysis** Grype scan is run against the Syft SBOM; top 5 CVEs are summarized. One CVE or risk scenario is described using NVD or functional/security reasoning. | Grype not run correctly or limited explanation of results. | 7 |
+| **Reflection & Professionalism** | Concise, technically sound reflection linking SBOM, Grype; all required files properly named and pushed to GitHub. | Minor clarity or submission issues. | 5 |
