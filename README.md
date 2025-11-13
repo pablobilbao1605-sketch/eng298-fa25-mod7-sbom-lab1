@@ -77,17 +77,11 @@ All commands can be executed directly inside your GitHub Codespace using this re
    ```bash
    git clone https://github.com/tamu-edu/ng911-dev.git
    ```
-
-**Syntax Breakdown**:
-
-**git** This invokes the **Git** command-line tool — the version control system used to manage source code repositories.
-
-**clone** Git subcommand that creates a copy of a remote repository (like one hosted on GitHub) on your local machine or Codespace. It:  
-1. Downloads all files and directories from the repo.  
-2. Preserves the commit history and branches.  
-3. Automatically configures a connection (called a *remote*) to the source repository.
-
-**https://github.com/tamu-edu/ng911-dev.git** URL of the remote repository you want to clone.
+| **Syntax Breakdown** | **Description**
+|---------------|------------------------|
+| **git** | The version control command-line tool/system used to manage source code repositories
+| **clone** | *Git* sub-command used to create a copy of a remote repo on your local machine or Codespace. It downloads all files and directories from the repo, preserves the commit history and branches, and automatically configures a connection (called a *remote*) to the source repository
+| **https://github.com/tamu-edu/ng911-dev.git** | URL of the remote repository you want to clone
 
 **Let’s break that URL down further:** 
 
@@ -99,7 +93,7 @@ All commands can be executed directly inside your GitHub Codespace using this re
 | `ng911-dev` | The repository name. |
 | `.git` | Tells Git this is a repository endpoint, not a webpage. |
 
-   This will download the NG911 source code into your Codespace environment so you can generate and analyze its SBOM.
+This will download the NG911 source code into your Codespace environment so you can generate and analyze its SBOM.
 
 2. Change into that folder, for example:
 
