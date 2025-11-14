@@ -166,7 +166,7 @@ This will download the NG911 source code into your Codespace environment so you 
 | **Syntax Breakdown** | **Description**
 |---------------|------------------------|
 | **head** | Linux command used to display the first part of a file
-| **-20** | Program sub-command (*sbom*) Program option used to specify the number of lines to display — in this case, the first 20 lines of the file
+| **-20** | Program option used to specify the number of lines to display — in this case, the first *20* lines of the file
 | **../deliverables/vuln_analysis_grype.txt** | The path and filename of the file you want to preview
 
 4. Copy the top 5 rows into your report table. Then select one CVE, locate it in the <b><a href="https://nvd.nist.gov">NVD Database</a></b>, and summarize its cause or impact in one sentence.
