@@ -1,0 +1,10 @@
+NAME          INSTALLED  FIXED IN  TYPE    VULNERABILITY        SEVERITY  EPSS           RISK   
+cryptography  43.0.0     44.0.1    python  GHSA-79v4-65xg-pq4g  Low       1.1% (77th)    0.3    
+setuptools    72.1.0     78.1.1    python  GHSA-5rjg-fvgr-3xxf  High      < 0.1% (25th)  < 0.1  
+fonttools     4.57.0     4.60.2    python  GHSA-768j-98cg-p3fv  Medium    < 0.1% (26th)  < 0.1  
+requests      2.32.3     2.32.4    python  GHSA-9hjg-9r4m-mvj7  Medium    < 0.1% (25th)  < 0.1  
+brotli        1.1.0      1.2.0     python  GHSA-2qfp-q593-8484  High      < 0.1% (3rd)   < 0.1  
+urllib3       2.2.2      2.5.0     python  GHSA-pq67-6m6q-mj2v  Medium    < 0.1% (2nd)   < 0.1  
+urllib3       2.2.2      2.5.0     python  GHSA-48p4-8xcf-vxj5  Medium    < 0.1% (0th)   < 0.1  
+cryptography  43.0.0     43.0.1    python  GHSA-h4gh-qq45-vh27  Medium    N/A            N/A    
+scapy         2.5.0                python  GHSA-cq46-m9x9-j8w2  Medium    N/A            N/A
